@@ -4,12 +4,14 @@
   "version": "0.1",
   "homepage_url": "https://github.com/taroxd/firefox-extension-sync-chrome-bookmarks",
   "description": "Remove all bookmarks and then import bookmarks from chrome",
+  "author": "taroxd",
 
   "permissions": [
     "bookmarks"
   ],
 
   "background": {
-    "scripts": ["Bookmarks.js", "background.js"]
+    "scripts": ["Bookmarks.js", "background.js"],
+    "persistent": false
   }
 }
